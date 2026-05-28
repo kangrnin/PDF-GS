@@ -1,0 +1,24 @@
+name: pdfgs
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip=25.0
+  - pytorch=2.5.1
+  - pytorch-cuda=12.1
+  - torchaudio=2.5.1
+  - torchvision=0.20.1
+  - tqdm
+  - plyfile
+  - mediapy=1.1.2
+  - pip:
+    - submodules/diff-gaussian-rasterization
+    - submodules/simple-knn
+    - matplotlib
+    - torchmetrics==1.2.0
+    - opencv_python
+    - scipy
+    - joblib
+    - transformers>=4.56
