@@ -45,7 +45,16 @@ python metrics.py -m <output path>
 ```
 
 ## Citation
-> Coming soon.
+```text
+@InProceedings{Seo_2026_CVPR,
+    author    = {Seo, Kangmin and Lee, MinKyu and Kim, Tae-Young and Lee, ByeongCheol and An, JoonSeoung and Heo, Jae-Pil},
+    title     = {PDF-GS: Progressive Distractor Filtering for Robust 3D Gaussian Splatting},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
+    month     = {June},
+    year      = {2026},
+    pages     = {468-477}
+}
+```
 
 ## Acknowledgements
 This work is built on top of these awesome projects:
